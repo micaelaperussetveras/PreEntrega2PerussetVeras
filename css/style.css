@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-right{
+text-decoration: none;
+display: flex;
+flex-direction: column;
+width: 10%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: cornsilk;
+padding: 20px;
+font-size: 25px;
+border-radius: 20px;
+text-align: center;
+gap: 50px;
+justify-content: space-between;
+}
+
+.hero-left{
+text-decoration: none;
+display: flex;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 10px;
+flex-direction: column;
+color: cornsilk;
+font-size: 25px;
+width: 20%;
+border-radius: 20px;
+text-align: center;
+gap: 50px;
+justify-content: space-between;
+}
+
+
+.hero-right-img{
+display: flex;
+}
+
+.hero-right-img img{
+width: 150px;
+grid-area: left;
+border-radius: 100%;
+border: 2px; solid color:cornsilk;
+}
+
+body{
+background-color:rgb(46, 10, 54);
+}
+
+nav{
+background-color: hsl(289, 69%, 13%);
+display: flex;
+justify-content: space-between;
+padding: 8px;
+}
+
+.nav-link{
+display: inline-block;
+margin: 5px;
+font-size: 10px;
+color: cornsilk;
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+min-width: 30%;
+max-width: 100%;
+transition: .3s;
+}
+
+.nav-link: hoover {
+color: bisque
+}
+
+main{
+background-color: #474747;
+display: grid;
+grid-template-columns: repeat (1);
+grid-template-rows: auto;
+font-size: 15px;
+}
+
+.caja{
+background-color: bisque;
+padding: 15px;
+}
+
+.tabla{
+display: inline-block;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 10px;
+color: cornsilk;
+}
+
+p{
+color: rgb(252, 248, 243);
+font-size: small;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: justify;
+}
+
+h1{
+color: rgb(233, 105, 148);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 200;
+}
+
+li{
+color: rgb(252, 248, 243);
+font-size: small;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: justify;
+}
+
+.video-aroma{
+background-color: rgb(46, 10, 54);
+width: 450px;
+
+}
+
+.lista-musica{
+background-color: rgb(46, 10, 54);
+width: 450px;
+}
+
+
+footer{
+background-color:rgb(46, 10, 54) ;
+text-decoration: none;
+font-size: medium;
+color: beige;
+display: flex;
+flex-direction: column;
+padding: 15px;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+
+/* mediaqueries */
+@media only screen and (max-width: 900pc;)
+nav{
+flex-direction: column;
+gap: 10px
+justify-content: center;
+align-items: center;
+}
+
+main{
+display: flex;
+flex-direction: column;
+gap: 2px;
+}
