@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-right{
+text-decoration: none;
+display: flex;
+flex-direction: column;
+width: 100%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: cornsilk;
+padding: 20px;
+font-size: 25px;
+border-radius: 20px;
+text-align: center;
+gap: 50px;
+justify-content: space-between;
+}
+
+.hero-left{
+text-decoration: none;
+display: flex;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding:10px;
+flex-direction: column;
+color: cornsilk;
+font-size: 25px;
+width: 100%;
+border-radius: 20px;
+text-align: center;
+gap: 50px;
+justify-content: space-between;
+}
+
+.hero-right-img{
+display: center;
+}
+
+.hero-right-img img{
+width: 150px;
+grid-area: left;
+border-radius: 100%;
+border: 2px solid cornsilk;
+}
+
+body{
+background-color:rgb(46, 10, 54);
+}
+
+label{ 
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 200;
+font-size:12pt;
+}
+
+.nav-link{
+display: inline;
+padding: 5%;
+font-size: 15px;
+color: cornsilk;
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+transition: .3s;
+overflow:hidden;
+}
+
+main{
+background-color: #474747;
+display: grid;
+grid-template-columns: repeat (1);
+grid-template-rows: auto;
+font-size: 15px;
+}
+
+.caja{
+background-color: rgb(216, 192, 162);
+padding: 15px;
+}
+
+.tabla{
+display: inline-block;
+border: 2px solid black;
+padding:10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 10px;
+color: cornsilk;
+}
+
+p{
+color: rgb(252, 248, 243);
+font-size: small;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: justify;
+}
+
+h1{
+color: rgb(233, 105, 148);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 200;
+}
+
+h2{
+color: rgb(233, 105, 148);
+font-size: small;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 200;
+}
+
+li{
+color: rgb(252, 248, 243);
+font-size: small;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: left;
+width: 100%;
+}
+
+.video-aroma{
+background-color: rgb(46, 10, 54);
+width: 100%;
+padding:20px;
+border-radius: 20px;
+gap: 50px;
+justify-content: space-between;
+}
+
+.lista-musica{
+background-color: rgb(46, 10, 54);
+width: 450px;
+padding:20px;
+width: 100%;
+border-radius: 20px;
+gap: 50px;
+justify-content: space-between;
+}
+
+footer{
+background-color:rgb(46, 10, 54) ;
+text-decoration: none;
+font-size: medium;
+color: beige;
+display: flex;
+flex-direction: column;
+padding: 15px;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+nav{
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    }
+  
+.video{
+    overflow:hidden;    
+    }
+
+.foto{
+    overflow:hidden;    
+     }
+
+ @media screen and (max-width:1200px) {
+    .nav-link{
+        display:block;
+        float:center;
+        width: 100%;
+        padding: 0.5%;
+        font-size: 15px;
+        color: cornsilk;
+        text-decoration: none;
+        text-align: center;
+    }
+    .video{
+        width: 50%;
+        height: 50%;   
+    }
+    .foto{
+        width: 50%;
+        height: 75%;   
+    }
+ }
+
+ 
